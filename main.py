@@ -182,6 +182,7 @@ while (True):
       print('At the end of episode', episode_nb, 'the total reward was :', reward_sum)
 
       
+      break
       if episode_nb>=3000 and reward_sum >=-12:
         break
       else:
